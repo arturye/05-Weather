@@ -1,0 +1,119 @@
+.position {
+  position: relative;
+  right: 25px;
+  margin-right: -16px;
+  margin-top: 6px;
+}
+/* General styling */
+body {
+  background: linear-gradient(to right, #56ccf2, #2f80ed);
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  max-width: 600px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Header styling */
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  color: #d3d3d3;
+  margin-top: 0;
+}
+
+/* Input styling */
+input[type="text"] {
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  padding: 0.75rem;
+  color: #333;
+}
+
+input[type="text"]::placeholder {
+  color: #777;
+}
+
+input[type="submit"] {
+  background-color: #ffffff;
+  color: #2f80ed;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 1.25rem;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  background-color: #56ccf2;
+  color: #ffffff;
+}
+
+/* Icon and temperature styling */
+#weather {
+  margin-top: 1.5rem;
+}
+
+#description {
+  font-size: 1.25rem;
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+#icon {
+  width: 80px;
+  margin-right: 1rem;
+}
+
+#temperature {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* Responsive design */
+@media (max-width: 576px) {
+  .card {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  #temperature {
+    font-size: 2.5rem;
+  }
+
+  #icon {
+    width: 60px;
+  }
+}
